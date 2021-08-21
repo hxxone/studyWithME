@@ -1,7 +1,10 @@
 #hello git
-# git 명령어 요약
+## git 명령어 요약
 
-clone
-add
-commit
-push
+- clone
+- add
+- commit
+- push
+## branch 변경하기
+- 브랜치란 기존 내용을 유지한 채 내용을 추가하고 싶을 때 사용한다
+- 체크아웃, 특정 브랜치로 돌아가고 싶을 때 사용한다
