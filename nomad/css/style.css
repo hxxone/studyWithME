@@ -1,3 +1,154 @@
 .hidden{
     display:none;
 }
+
+.background{
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover{
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    opacity: 40%;
+}
+
+body{
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+input{
+    width: 150px;
+    height: 25px;
+    border: transparent;
+    border-bottom: 3px solid whitesmoke;
+    background: transparent;
+    text-align: center;
+}
+input:focus{
+    width: 150px;
+    height: 25px;
+    outline: none;
+    border-bottom: 3px solid whitesmoke;
+
+
+}
+
+
+#clock{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 90px;
+    color: whitesmoke;
+    opacity: 60%;
+}
+
+#submit{
+    border: none;
+    width: 100px;
+    height: 25px;
+}
+.btn{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn:hover{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#login-form{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    opacity: 60%;
+}
+
+#greeting{
+    font-weight: lighter;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    opacity: 60%;
+}
+.temp{
+    border: 2px white solid; 
+    width: 400px;
+    height: 400px;
+    z-index: 3;
+}
+#todo-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    opacity: 60%;
+
+}
+
+#todo-list{  
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+    opacity: 60%;
+}
+
+
+#quote{   
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 15x;
+    color: whitesmoke;
+    opacity: 60%;
+}
+
+#weather{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    opacity: 60%;
+}
