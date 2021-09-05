@@ -18,7 +18,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1;
-    opacity: 40%;
+    opacity:70%;
 }
 
 body{
@@ -36,25 +36,36 @@ input{
     border-bottom: 3px solid whitesmoke;
     background: transparent;
     text-align: center;
+    color: beige;
 }
 input:focus{
     width: 150px;
     height: 25px;
     outline: none;
     border-bottom: 3px solid whitesmoke;
-
-
 }
 
 
 #clock{
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 2;
     text-align: center;
-    font-size: 90px;
+    font-size: 100px;
+    color: whitesmoke;
+    opacity: 70%;
+}
+
+#login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 15px;
     color: whitesmoke;
     opacity: 60%;
 }
@@ -67,23 +78,14 @@ input:focus{
 .btn{
     border: none;
     background-color: rgba(0, 0, 0, 0);
+    color: tomato;
 }
 
 .btn:hover{
     border: none;
     background-color: rgba(0, 0, 0, 0.6);
 }
-#login-form{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 2;
-    text-align: center;
-    font-size: 15px;
-    color: whitesmoke;
-    opacity: 60%;
-}
+
 
 #greeting{
     font-weight: lighter;
@@ -96,12 +98,6 @@ input:focus{
     font-size: 30px;
     color: whitesmoke;
     opacity: 60%;
-}
-.temp{
-    border: 2px white solid; 
-    width: 400px;
-    height: 400px;
-    z-index: 3;
 }
 #todo-form{
     position: absolute;
@@ -117,13 +113,14 @@ input:focus{
 }
 
 #todo-list{  
+    padding-top: 20px;
     position: absolute;
     top:60%;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 2;
     text-align: center;
-    font-size: 25px;
+    font-size: 17px;
     color: whitesmoke;
     opacity: 60%;
 }
